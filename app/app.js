@@ -3,10 +3,10 @@ import RadSideDrawer from 'nativescript-ui-sidedrawer/vue'
 
 Vue.use(RadSideDrawer)
 
-import App from './components/Login'
+import Login from './components/Login'
 
 Vue.config.silent = !__DEV__
 
 new Vue({
-  render: h => h(App)
+  render: h => h(Login)
 }).$start()
